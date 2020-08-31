@@ -1,0 +1,42 @@
+{
+    "notes": [
+        {
+            "title": "Buy party supplies",
+            "content": "2x Cola\n2x Snacks\n4x Avocado\n1x Salsa sauce",
+            "date": "2020-08-30",
+            "category": "Shopping"
+        },
+        {
+            "title": "Band practice",
+            "content": "Band practice on Friday 04.09, usual spot",
+            "date": "2020-08-31",
+            "category": "Hobbies"
+        },
+        {
+            "title": "Sprint planning",
+            "content": "Wednesday, second floor conference room",
+            "date": "2020-08-29",
+            "category": "Work"
+        },
+        {
+            "title": "Deploy an updated app",
+            "content": "Friday, report to the client",
+            "date": "2020-08-28",
+            "category": "Work"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Shopping",
+            "id": 0
+        },
+        {
+            "name": "Work",
+            "id": 1
+        },
+        {
+            "name": "Hobbies",
+            "id": 2
+        }
+    ]
+}
