@@ -47,10 +47,10 @@ export class MainComponent {
   saveData() {
     if (this.data.hasOwnProperty('notes') && this.data.hasOwnProperty('categories')) {
       this.notes = this.data.notes.sort((a, b) => {
-        if (new Date(b.date) - new Date(a.date) > 0) {
+        if (new Date(b.date).getTime() - new Date(a.date).getTime() > 0) {
           return 1
         }
-        else if (new Date(b.date) - new Date(a.date) < 0) {
+        else if (new Date(b.date).getTime() - new Date(a.date).getTime() < 0) {
           return -1
         }
         else {
